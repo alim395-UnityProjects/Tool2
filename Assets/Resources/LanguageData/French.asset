@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326ad25e7de078b4bab926c87cd0f9f5, type: 3}
+  m_Name: French
+  m_EditorClassIdentifier: 
+  translationsList:
+  - key: Q1
+    value: Comment t'appelles tu?
+  - key: Q2
+    value: Comment allez-vous aujourd'hui?
+  - key: Q3
+    value: Est-ce que vous me comprenez
+  - key: Fin
+    value: "J\u2019esp\xE8re que vous passerez une bonne journ\xE9e."

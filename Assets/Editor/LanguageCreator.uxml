@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/LanguageCreator.uss?fileID=7433441132597879392&amp;guid=04cc92b398fb3da4ba87f1409a8872cc&amp;type=3#LanguageCreator" />
+    <ui:Label tabindex="-1" text="Language Data Wizard" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Heading1" class="LanguageCreatorHeading" />
+    <ui:Label tabindex="-1" text="List of Languages:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ListLang" class="LanguageCreatorSubheading" />
+    <ui:VisualElement name="LanguageList" style="flex-grow: 1;" />
+    <ui:DropdownField label="Select Language" index="-1" name="LanguageSelect" style="-unity-font-style: bold; color: rgb(255, 255, 255);" />
+    <ui:Label tabindex="-1" text="Key-Data Pairs:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KDLang" class="LanguageCreatorSubheading" />
+    <ui:VisualElement name="KDPairs" style="flex-grow: 1;" />
+    <ui:Button text="Update" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KDUpdate" />
+    <ui:Label tabindex="-1" text="Keys:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KeyLang" class="LanguageCreatorSubheading" />
+    <ui:VisualElement name="Keys" style="flex-grow: 1;" />
+    <ui:Button text="Update" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KeyUpdate" />
+    <ui:Label tabindex="-1" text="Add/Remove Key:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KDLangModify" class="LanguageCreatorSubheading" />
+    <ui:TextField picking-mode="Ignore" label="KeyName" name="KDKeyModify" />
+    <ui:VisualElement name="KDModifyButtons" style="flex-direction: row; justify-content: flex-end;">
+        <ui:Button text="Add" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KDAddButton" />
+        <ui:Button text="Remove" parse-escape-sequences="true" display-tooltip-when-elided="true" name="KDRemoveButton" />
+    </ui:VisualElement>
+    <ui:Label tabindex="-1" text="Create Language" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateLang" class="LanguageCreatorSubheading" />
+    <ui:TextField picking-mode="Ignore" label="LangName" name="LangModify" />
+    <ui:VisualElement name="LangModifyButtons" style="flex-direction: row; justify-content: flex-end;">
+        <ui:Button text="Add" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LangAddButton" />
+        <ui:Button text="Remove" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LangRemoveButton" />
+    </ui:VisualElement>
+</ui:UXML>
